@@ -15,8 +15,5 @@ const App = () => {
   );
 };
 
-// const challenge = () => {
-//   return "Pokemon, I choose you"
-// }
 
 export default App;
