@@ -10,8 +10,9 @@ function PokemonCity() {
 
   return (
     <div>
-      <input type="text" value={city} onChange={updateCity} />
-      <p>Welcome to the city of {city}</p>
+      <input type="text" value={city} onChange={updateCity}></input>
+      <button>Search</button>
+      <p>Welcome to the city of {city} </p>
     </div>
   );
 }
