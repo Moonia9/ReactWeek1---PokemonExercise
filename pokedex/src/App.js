@@ -2,7 +2,9 @@ import React from "react"; //not needed in newer versions of React
 import Logo from "./Logo";
 import BestPokemon from "./BestPokemon";
 import CaughtPokemon from "./CaughtPokemon";
-import PokemonMoves from "./PokemonMoves";
+//import PokemonMoves from "./PokemonMoves";
+import PokemonMovesSelector from "./PokemonMovesSelector";
+import PokemonCity from "./PokemonCity";
 
 const App = () => {
   const abilities = ["Anticipation", "Adaptability", "Run-Away"];
@@ -12,7 +14,8 @@ const App = () => {
       <Logo appName="Pokedex" />
       <BestPokemon abilities={abilities} />
       <CaughtPokemon date={date} />
-      <PokemonMoves />
+      <PokemonCity />
+      <PokemonMovesSelector />
     </div>
   );
 };
